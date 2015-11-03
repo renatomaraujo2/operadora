@@ -1,0 +1,25 @@
+{
+    "name": "renatomaraujo2/operadora",
+    "description": "Pacote para retornar a operadora do telefone",
+    "keywords": ["operadora","brazil","brasil","laravel","telefone","celular"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Moreira de Araujo",
+            "email": "renatomaraujo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Renatomaraujo2\\Operadora": "src/"
+        },
+        "psr-4": {
+            "Renatomaraujo2\\Operadora\\": "packages/renatomaraujo2/operadora/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "cagartner/phpquery": "0.9.8"
+    }
+}
